@@ -1,0 +1,69 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	-webkit-font-smoothing: antialiased; 
+	color: white;
+	background: #f3f3f3;
+}
+
+#top {
+	background: url(../img/background-image.jpg) repeat;
+	padding-top: 77px;
+}
+
+.submenu {
+	display: none;
+	color: #555;
+	margin-left: 0px;
+	list-style: none;
+    position:absolute;
+    margin-top: 12px;
+    margin-left: -21px;
+    background: white;
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    -webkit-padding-start: 0;
+}
+
+.submenu > li {
+	text-shadow: none;
+	padding: 11px 20px 11px 20px;
+	text-align: left;
+	cursor: pointer;
+	border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.custom-menu {
+	list-style: none;
+}
+
+.custom-menu > li {
+	display: inline;
+	float: left;
+
+	cursor: pointer;
+	font-weight: bold;
+	text-shadow: 0 -1px rgba(0,0,0,.3);
+
+	padding: 13px 20px 12px 20px;
+	margin-right: 3px;
+
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top: 1px solid rgba(255,255,255,.5);
+
+	background: #b1d0dd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b1d0dd 0%, #89b8cc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b1d0dd), color-stop(100%,#89b8cc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b1d0dd 0%,#89b8cc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b1d0dd 0%,#89b8cc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b1d0dd 0%,#89b8cc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b1d0dd 0%,#89b8cc 100%); /* W3C */
+}
+
+
+#divider {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 7px;
+}
